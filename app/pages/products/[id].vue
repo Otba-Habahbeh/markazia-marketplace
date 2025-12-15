@@ -8,7 +8,7 @@ const isAddedToCart = ref(false)
 const quantity = ref(1)
 
 // Fetch Product Details
-const { data: product, pending, error } = await useFetch(`${config.public.apiBase}/api/products/${route.params.id}`, { server: false, lazy: true })
+const { data: product, pending, error } = await useFetch(`${config.public.apiBaseUrl}/api/products/${route.params.id}`, { server: false, lazy: true })
 
 // Computed
 const discountPercent = computed(() => {

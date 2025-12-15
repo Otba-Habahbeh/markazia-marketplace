@@ -65,7 +65,7 @@ export const useProductStore = defineStore('productStore', () => {
                 category: activeCategory.value || 'all',
                 search: searchQuery.value
             })
-            const res: any = await $fetch(`${config.public.apiBase}/api/products?` + query.toString())
+            const res: any = await $fetch(`${config.public.apiBaseUrl}/api/products?` + query.toString())
             products.value = res.products
             totalItems.value = res.total
             error.value = null

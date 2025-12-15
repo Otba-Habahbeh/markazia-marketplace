@@ -1,19 +1,15 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: process.env.NODE_ENV !== 'production',
+  devtools: {enabled: true},
   ssr: true,
   modules: ['@nuxtjs/i18n', '@pinia/nuxt', '@nuxt/ui'],
   runtimeConfig: {
     public: {
-      apiBase: process.env.NUXT_PUBLIC_API_BASE || ''
+      apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE || 'http://localhost:3000'
     }
   },
   nitro: {
     preset: 'node-server',
-    server: {
-      host: '0.0.0.0',
-      port: process.env.PORT ? Number(process.env.PORT) : 3000,
-    }
   },
   css: ['~/assets/css/main.css'],
   app: {

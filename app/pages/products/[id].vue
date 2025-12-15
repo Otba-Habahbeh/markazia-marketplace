@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
 
+const config = useRuntimeConfig()
 const route = useRoute()
 const { isRtl } = useDirection()
 const isAddedToCart = ref(false)
 const quantity = ref(1)
 
 // Fetch Product Details
-const { data: product, pending, error } = await useFetch(`/api/products/${route.params.id}`, { server: false, lazy: true })
+const { data: product, pending, error } = await useFetch(`${config.public.apiBase}/api/products/${route.params.id}`, { server: false, lazy: true })
 
 // Computed
 const discountPercent = computed(() => {

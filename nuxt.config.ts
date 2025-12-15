@@ -2,6 +2,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n', '@pinia/nuxt', '@nuxt/ui'],
+  runtimeConfig: {
+    public: {
+      apiBase: ''
+    }
+  },
   css: ['~/assets/css/main.css'],
   app: {
       head: {

@@ -3,6 +3,7 @@ import { defineStore } from 'pinia'
 export const useProductStore = defineStore('productStore', () => {
     // State
     const { t } = useI18n()
+    const config = useRuntimeConfig()
     const activeCategory = ref('')
     const searchQuery = ref('')
     const currentPage = ref(1)
@@ -64,7 +65,7 @@ export const useProductStore = defineStore('productStore', () => {
                 category: activeCategory.value || 'all',
                 search: searchQuery.value
             })
-            const res: any = await $fetch('/api/products?' + query.toString())
+            const res: any = await $fetch(`${config.public.apiBase}/api/products?` + query.toString())
             products.value = res.products
             totalItems.value = res.total
             error.value = null

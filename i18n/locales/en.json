@@ -1,0 +1,124 @@
+{
+  "markazia": {
+    "title": "Markazia Group",
+    "description": "Markazia Marketplace is a demo app showing sample products with features like dark/light mode, multilingual support, and product details pages.",
+    "home": "Home",
+    "about_us": "About us",
+    "market": "Market",
+    "contact_us": "Contact us",
+    "browse_collection": "Browse Collection",
+    "hero": {
+      "title_line1": "Experience",
+      "title_line2": "Automotive",
+      "title_line3": "Excellence",
+      "description": "Established in 1999, Markazia Group is a leading automotive company in Jordan, providing premium vehicles, innovative mobility solutions, and exceptional customer service."
+    },
+    "stats": {
+      "products": "Products",
+      "clients": "Clients",
+      "countries": "Countries"
+    },
+    "page_locked": {
+      "title": "This Page is Locked",
+      "description": "Hire me to unlock this page :)",
+      "button": "Hire Me"
+    },
+    "copyright": "Copyright © {year}",
+    "testimonials": {
+      "t1": {
+        "name": "Markazia User",
+        "description": "Satisfied client",
+        "quote": "Markazia Marketplace makes it easy to explore products with dark/light mode and multi-language support."
+      },
+      "t2": {
+        "name": "Markazia Client",
+        "description": "Demo user",
+        "quote": "The platform is intuitive and allows us to quickly showcase products and details pages."
+      },
+      "t3": {
+        "name": "Markazia Designer",
+        "description": "UI/UX demo",
+        "quote": "Using Markazia’s components, we built a beautiful and responsive demo marketplace in no time."
+      },
+      "t4": {
+        "name": "Markazia Developer",
+        "description": "Frontend engineer",
+        "quote": "Markazia saves development time and ensures a consistent and modern look for our demo products."
+      },
+      "t5": {
+        "name": "Markazia Team",
+        "description": "Internal feedback",
+        "quote": "We love how easy it is to customize and present product details with Markazia’s design system."
+      }
+    },
+    "products": {
+      "items": {
+        "led_headlight_bulbs": "LED Headlight Bulbs",
+        "car_floor_mats": "Car Floor Mats",
+        "brake_pads_set": "Brake Pads Set",
+        "engine_air_filter": "Engine Air Filter",
+        "car_phone_holder": "Car Phone Holder",
+        "windshield_wipers": "Windshield Wipers",
+        "car_battery_charger": "Car Battery Charger",
+        "steering_wheel_cover": "Steering Wheel Cover",
+        "dash_cam_full_hd": "Dash Cam Full HD",
+        "car_cleaning_kit": "Car Cleaning Kit",
+        "spark_plug_set": "Spark Plug Set",
+        "car_tire_inflator": "Car Tire Inflator",
+        "rear_view_camera": "Rear View Camera",
+        "seat_covers_set": "Seat Covers Set",
+        "oil_filter": "Oil Filter"
+      },
+      "categories": {
+        "all": "All",
+        "lighting": "Lighting",
+        "interior": "Interior",
+        "replacement": "Replacement Parts",
+        "engine": "Engine",
+        "accessories": "Accessories",
+        "electronics": "Electronics",
+        "care": "Car Care",
+        "tools": "Tools"
+      },
+      "placeholders": {
+        "search_products": "Search products...",
+        "select_category": "Select Category"
+      },
+      "back_to_products": "Back To Products",
+      "in_stock": "in stock",
+      "added_to_cart": "Added to cart",
+      "add_to_cart": "Add to cart",
+      "wishlist": "Wishlist",
+      "quantity": "Quantity",
+      "product_reviews": "reviews",
+      "details": {
+        "title": "Details",
+        "specifications": {
+          "title": "Specifications",
+          "specification1": "Weight: 2.5 kg",
+          "specification2": "Dimensions: 30 x 20 x 15 cm",
+          "specification3": "Material: Premium Plastic",
+          "specification4": "Color: Multiple Options"
+        }
+      },
+      "shipping": {
+        "title": "Shipping",
+        "note1": "Estimated delivery within 5-7 business days.",
+        "note2": "Free shipping on orders over $50. Express shipping available."
+      },
+      "reviews": {
+        "title": "Reviews",
+        "note1": "No reviews yet. Be the first to review this product!"
+      }
+    },
+    "errors": {
+      "error": "Error",
+      "page_not_found": "Page not found",
+      "no_products_found": "No products found.",
+      "product_not_found": "Product not found",
+      "failed_fetch_products": "Failed to fetch products.",
+      "failed_load_product": "Failed to load product",
+      "back_to_home": "Back to home"
+    }
+  }
+}

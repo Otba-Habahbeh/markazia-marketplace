@@ -1,0 +1,4 @@
+# Override ONLY for nuxt.config.ts
+[nuxt.config.ts]
+indent_style = space
+indent_size = 2
